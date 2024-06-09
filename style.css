@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg_default);
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito Sans";
+    background-color: var(--bg_body);
+    color: var(--body-text);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .gab {
+    gap: 0.5rem;
+  }
+  .nav {
+    padding: 16px 48px;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: var(--brand-secondary);
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--brand-primary);
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+  }  
+  .mode-btn,
+  .favourites-btn {
+    border: 1px solid var(--lines-color);
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.8px;
+    color: var(--body-text);
+  }
+  
+  .btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .two-triangles-box {
+    position: relative;
+    max-height: 120px;
+  }
+  
+  .triangle1,
+  .triangle2 {
+    width: 100%;
+    min-height: 60px;
+  }
+  
+  .triangle1 {
+    clip-path: polygon(0 0, 0 80%, 100% 0);
+    position: relative;
+    left: 0;
+    top: -3.8rem;
+    background: rgb(7, 104, 172);
+    background: linear-gradient(
+      90deg,
+      var(--brand-primary) 0%,
+      var(--brand-secondary) 100%
+    );
+  }
+  
+  .triangle2 {
+    z-index: -1;
+    top: 0;
+    background-color: var(--brand-secondary);
+    clip-path: polygon(0 0, 100% 80%, 100% 0);
+  }
+  
+  .welcome-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-4.5rem);
+    background-color: transparent;
+  }
+  
+  .welcome-box * {
+    background-color: transparent;
+  }
+  
+  .welcome-box h2 {
+    text-align: center;
+    
+  }
+  :root {
+    /* Default (light mode) colors */
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #ffffff;
+    --bg_body: #f0f9ff;
+    --lines-color: #dddddd;
+    --body-text: #333333;
+    --heart-color: #dc143c;
+  }
+  
+  body.light-mode {
+    /* Light mode colors */
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #ffffff;
+    --bg_body: #f0f9ff;
+    --lines-color: #dddddd;
+    --body-text: #333333;
+    --heart-color: #dc143c;
+  }
+  
+  body.dark-mode {
+    /* Dark mode colors */
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #1a1a1a;
+    --bg_body: #282828;
+    --lines-color: #000000;
+    --body-text: #ededed;
+    --heart-color: #dc143c;
+  }
+  
