@@ -1,0 +1,160 @@
+
+  @media screen and (max-width: 1100px) {
+   
+    h2 {
+      font-size: 1.15rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .details-div,
+    .sub-topics-div {
+      max-width: 435px;
+    }
+  
+    .welcome-box {
+      transform: translateY(-8px);
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .label {
+      font-size: 0.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 735px) {
+    .details-div,
+    .sub-topics-div {
+      max-width: 335px;
+    }
+  
+    .details-div h4 {
+      font-size: 0.8rem;
+    }
+    .details-div h3 {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .details-div,
+    .sub-topics-div {
+      max-width: 200px;
+    }
+  
+    .topic {
+      position: static;
+    }
+  
+    .welcome-box {
+      transform: translateY(-46.2px);
+    }
+  
+    h2 {
+      font-size: 1.12rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .search-sort-filter-box .search-box input {
+      font-size: 0.8rem;
+    }
+  
+    .label {
+      font-size: 0.7rem;
+    }
+  
+    #sort,
+    #filter {
+      font-size: 0.85rem;
+    }
+  
+    .details-div h4 {
+      font-size: 0.8rem;
+    }
+    .details-div h3 {
+      font-size: 0.9rem;
+    }
+  }
+  
+ 
+ 
+  
+ 
+  
+  @media screen and (max-width: 580px) {
+    .details-div,
+    .relative-container,
+    .sub-topics-div {
+      max-width: 40%;
+    }
+  
+    .welcome-box {
+      transform: translateY(-5px);
+    }
+  
+    h2 {
+      font-size: 0.9rem;
+    }
+  
+    p {
+      font-size: 0.8rem;
+    }
+  
+    .search-sort-filter-box .search-box input {
+      font-size: 0.7rem;
+    }
+  
+    .label {
+      font-size: 0.65rem;
+    }
+  
+    #sort,
+    #filter {
+      font-size: 0.8rem;
+    }
+  
+    .details-div h4 {
+      font-size: 0.7rem;
+    }
+    .details-div h3 {
+      font-size: 0.8rem;
+    }
+  
+    .relative-container {
+      min-width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 434px) {
+    .welcome-box {
+      transform: translateY(-40px);
+    }
+  
+    h2 {
+      font-size: 0.85rem;
+    }
+  
+    p {
+      font-size: 0.75rem;
+    }
+  
+    .search-sort-filter-box .search-box input {
+      font-size: 0.63rem;
+    }
+  
+    .label {
+      font-size: 0.6rem;
+    }
+  
+    #sort,
+    #filter {
+      font-size: 0.75rem;
+    }
+  }
+  
+  
