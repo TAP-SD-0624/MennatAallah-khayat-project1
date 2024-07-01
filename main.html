@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="./style.css" />
-    <title>TAP - Basic layout</title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <link rel="stylesheet" href="./assest/css/favourites.css">
+     <link rel="stylesheet" href="./assest/css/media.css"/>
+    <title>TAP - Main Page</title>
 </head>
 <body>
+  <header>
     <div class="flex nav">
         <h3 class="nav-h3">Web Topics</h3>
 
@@ -35,5 +38,68 @@
           </div>
         </div>
       </div>
+    </header>
+    <main>
+      <div class="flex search-sort-filter-box">
+        <div class="flex gab search-box">
+          <ion-icon name="search-outline"></ion-icon>
+          <input
+            class="search"
+            name="search"
+            type="text"
+            placeholder="Search the website..."
+          />
+        </div>
+
+        <div class="flex selectors-box">
+          <div class="select">
+            <div>
+              <label class="label" for="sort">Sort by:</label>
+              <select name="sort" id="sort">
+                <option value="default">Default</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="select">
+            <div>
+            <label class="label" for="filter">Filter by:</label>
+            <select name="filter" id="filter">
+              <option value="default">Default</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+              <option value="option4">Option 4</option>
+            </select>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="nums-topic-found-h2">"24" Web Topics Found</h2>
+      <div id="topics" class="topics-container">
+        <!-- <div id="container"></div> -->
+      </div>
+     
+</main>
+<div class="favourites">
+  <p class="favourites-p">My Favourite Topics</p>
+  <div class="favourites-div"></div>
+</div>
+</div>
+<div class="footer-section">
+<footer>
+  <div class="footer-div gab">
+    <p>Developed with</p>
+    <ion-icon class="heart-icon" name="heart"></ion-icon>
+    <p>&copy; 2023</p>
+  </div>
+</footer>
+</div>
+<script type="module" src="./assest/js/data.js"></script>
+<script type="module" src="./assest/js/details.js"></script>
+
 </body>
 </html>
